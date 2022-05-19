@@ -51,13 +51,7 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
         }}
       >
         <Box display='flex' justifyContent='center' alignItems='center'>
-          <Typography
-            variant='h6'
-            component={NavLink}
-            exact
-            to='/'
-            sx={navStyles}
-          >
+          <Typography variant='h6' component={NavLink} to='/' sx={navStyles}>
             STORE
           </Typography>
           <ToggleButton checked={darkMode} onChange={handleThemeChange} />

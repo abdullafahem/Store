@@ -36,7 +36,7 @@ export default function Footer({ darkMode, handleThemeChange }: Props) {
       sx={{
         display: "flex",
         flexDirection: "column",
-        minHeight: "26.4vh",
+        minHeight: "100vh",
       }}
     >
       <Box
